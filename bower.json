@@ -1,0 +1,21 @@
+{
+  "name": "march-2014-notes",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Bennett <mark@burmis.ca>"
+  ],
+  "description": "Notes for the March 2014 ExchangeJS meetup",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}
