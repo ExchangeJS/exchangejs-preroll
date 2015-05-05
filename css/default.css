@@ -53,6 +53,16 @@ body {
   color: #FFFFFF;
 }
 
+.reveal h1.light,
+.reveal h2.light,
+.reveal h3.light.
+.reveal h4.light,
+.reveal h5.light
+.reveal h6.light {
+  color: #FFFFFF;
+}
+
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -153,7 +163,7 @@ body {
 .reveal .overlay .lower-third {
   background: #000000;
   bottom: 0;
-  height: 30px;
+  height: 80px;
   left: 0;
   position: fixed;
   width: 100%;
@@ -165,6 +175,11 @@ body {
   transform: translate(20%, -70%) rotate(3deg);
 }
 
+.reveal .lower-third h2 {
+  float: right;
+  font-size: 60px;
+  padding: 10px 10px 0 0;
+}
 
 /*********************************************
  * HIDDEN
@@ -177,5 +192,13 @@ body {
  * CREDITS
  *********************************************/
 .reveal .credit {
-  font-size: 25px;
+  font-size: 20px;
+  margin-top: 65px;
+}
+
+/*********************************************
+* CODE
+*********************************************/
+.reveal code {
+  text-transform: none;
 }
